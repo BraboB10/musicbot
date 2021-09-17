@@ -1,0 +1,31 @@
+{
+  "name": "musicbot",
+  "version": "1.0.0",
+  "description": "Bot plays music",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BraboB10/musicbot.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "Brandon Bradley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BraboB10/musicbot/issues"
+  },
+  "homepage": "https://github.com/BraboB10/musicbot#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.6.0",
+    "@discordjs/rest": "0.1.0-canary.0",
+    "discord-api-types": "^0.23.1",
+    "discord.js": "^12.5.3",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^4.9.1"
+  }
+}
